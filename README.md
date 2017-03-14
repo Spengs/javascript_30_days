@@ -1,3 +1,4 @@
-#Drum Kit
 
-Project 1 from the Javascript 30 day tutorial series
+# javascript_30_days
+
+Projects from the 30 day Javascript series
