@@ -40,7 +40,7 @@ function displayTimeLeft(seconds) {
   const hours = Math.floor(minutes / 60);
   const adjustedMinutes = Math.floor(minutes % 60);
   const remainderSeconds = seconds % 60;
-  const display = `${hours < 10 ? '0' : ''}${hours === 0 ? '' : hours}:${adjustedMinutes  < 10 ? '0' : ''}${adjustedMinutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
+  const display = `${hours < 10 ? '0' : ''}${hours === 0 ? '0' : hours}:${adjustedMinutes  < 10 ? '0' : ''}${adjustedMinutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
   document.title = display;
   timerDisplay.textContent = display;
 }
